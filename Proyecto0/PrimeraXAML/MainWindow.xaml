@@ -1,0 +1,20 @@
+﻿<Window x:Class="PrimeraXAML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrimeraXAML"
+        mc:Ignorable="d"
+        Title="Este es el titulo" Height="450" Width="800">
+    <StackPanel Name="panel">
+    <Label Name="etiq"  Background="Beige" Foreground="Blue" Margin="10">
+        Hola mundo
+    </Label>
+        <Label Name="etiq2"  Background="Beige" Foreground="Blue" Margin="10">
+            Adios mundo
+        </Label>
+        <Button Click="Button_Click">
+            PULSA
+        </Button>
+    </StackPanel>
+</Window>
